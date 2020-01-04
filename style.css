@@ -1,0 +1,61 @@
+#gallary{
+    background-color: #fff;
+}
+#gallery h2{
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+    font-size: 1.8em  ;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+#gallery-container{
+    background-color: black;
+    margin-top: 1em;
+}
+
+#gallery-container a{
+    position: relative;
+    width: 25%;
+    max-width: 25%;
+}
+#gallery-container a img{
+    opacity: 0.7;
+}
+#gallery-container a span{
+    height: 3em;
+    width: 3em;
+    background-color: white;
+    background-image: url("./img/permalink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    visibility: hidden;
+}
+#gallery-container a:hover{
+    background-color: #5DBCD2;
+
+}
+#gallery-container a:hover span{
+    visibility: visible;
+}
+#brands {
+    background-color: #424242;
+}
+
+@media (max-width: 768px) {  
+    #gallery-container a {
+        width: 33.33%;
+        max-width: 33.33%;
+    }
+}
+@media (max-width: 576px) {  
+    #gallery-container a {
+        width: 100%;
+        max-width: 100%;
+    }
+}
