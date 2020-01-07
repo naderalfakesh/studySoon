@@ -47,6 +47,11 @@
     background-color: #424242;
 }
 
+#social-contacts{
+    background-color: #002b46;
+    color: white;
+}
+
 @media (max-width: 768px) {  
     #gallery-container a {
         width: 33.33%;
