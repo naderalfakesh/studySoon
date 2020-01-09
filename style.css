@@ -129,3 +129,254 @@ nav ul li.active a{
         max-width: 100%;
     }
 }
+/*   Programs Section   */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wrapper {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#programs_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px ;
+}
+#programs_title h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media  (max-width: 900px){
+    #programs_title {
+        padding-top: 30px;
+    }
+}
+@media  (max-width: 500px){
+    #programs_title {
+        padding-top: 15px;
+    }
+}
+
+@media  (max-width: 900px){
+    #programs_title h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+@media  only screen and (max-width: 500px){
+    .container h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+
+#programs_title p {
+    font-style: italic;
+    text-align: center;
+}
+
+@media  (max-width: 900px){
+    #programs_title p {
+       font-size: smaller;
+    }
+}
+@media  only screen and (max-width: 500px){
+    #programs_title p  {
+        font-size: small;
+    }
+}
+
+#edu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#edu hr {
+    background-color: green;
+    width: 40px;
+    height: 1px;
+    border-radius: 1px;
+    border-color:green;
+    margin: 20px 10px 20px 10px;
+}
+
+/* Programs Section */
+#programs a {
+    color: black;
+}
+#programs a:hover {
+    color: green;
+    text-decoration-line: none;
+}
+#programs div {
+    border: 0;
+    padding: 0px 5px;
+}
+#programs img {
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+@media  (max-width: 900px){
+    #programs h5 {
+        font-size: small;
+    }
+}
+@media  only screen and (max-width: 500px){
+    #programs h5 {
+        font-size: small;
+    }
+}
+@media  (max-width: 900px){
+    #programs p {
+        font-size: small;
+    }
+}
+@media  only screen and (max-width: 500px){
+    #programs p {
+        font-size: small;
+    }
+}
+
+.myCardText{
+    padding-bottom: 80px;
+}
+
+
+/*   Teachers Section   */
+#teachers img {
+    width: 50px;
+    height: 50px;
+}
+#teachers i {
+    display: inline-block;
+}
+
+
+#teachers {
+    background: linear-gradient(
+      to bottom,
+      rgba(117, 104, 94, 0.8) 0,
+      rgba(117, 104, 94, 0.8) 100%
+    ),
+    url("img/banner1image.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px ;
+}
+#teachers h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media  (max-width: 900px){
+    #teachers {
+        padding-top: 30px;
+    }
+}
+@media  (max-width: 500px){
+    #teachers {
+        padding-top: 15px;
+    }
+}
+
+@media  (max-width: 900px){
+    #teachers h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+@media  only screen and (max-width: 500px){
+    .teachers h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+
+#teachers p {
+    color: white;
+}
+
+#teachers hr {
+    background-color: green;
+    width: 60px;
+    height: 2px;
+    border-radius: 3px;
+    border-color:green;
+    margin-bottom: 40px;
+}
+
+/*  Footer  */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: green;
+}
+
+footer a:hover {
+    color: gray;
+    text-decoration-line: none;
+}
+
+.carousel-item img{
+    height: 400px;
+    width: 80%;
+    margin:20px;
+    margin-right: 20px;
+   
+    
+    
+}
+.carousel-caption  h5{color:#549c71;
+font-size: 50px;
+font-weight: bold;
+
+}
+.slide {
+    z-index: 0; 
+    margin-bottom: -50px;    
+}
+.manel{margin-bottom: 100px;}
+.manel .btn
+{width: 150px;
+font-size: 20px;}
+
+.row{width: 90%;
+margin-left: 47px;
+z-index: 1; 
+
+position: absolute;
+}
+
+.thumbnail{
+    margin-top: 10px;
+    }
+
+.caption{border-style:groove;
+     border-color: #549c71 ;
+    margin-top: 5px;
+   
+height: 230px;}
+.caption h5{font-size: 20px;color:#549c71;
+text-align: center;}
+.caption p{text-align: center;}
+.thumbnail .btn{ width: 150px;
+    font-size: 15px;
+margin-left: 25%;
+margin-bottom: 0px;}
+
