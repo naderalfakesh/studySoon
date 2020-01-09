@@ -192,6 +192,7 @@ footer {
     background-color: black;
     color: white;
 }
+
 footer a {
     color: green;
 }
@@ -200,3 +201,51 @@ footer a:hover {
     color: gray;
     text-decoration-line: none;
 }
+
+.carousel-item img{
+    height: 400px;
+    width: 80%;
+    margin:20px;
+    margin-right: 20px;
+   
+    
+    
+}
+.carousel-caption  h5{color:#549c71;
+font-size: 50px;
+font-weight: bold;
+
+}
+.slide {
+    z-index: 0; 
+    margin-bottom: -50px;    
+}
+.manel{margin-bottom: 100px;}
+.manel .btn
+{width: 150px;
+font-size: 20px;}
+
+.row{width: 90%;
+margin-left: 47px;
+z-index: 1; 
+
+position: absolute;
+}
+
+.thumbnail{
+    margin-top: 10px;
+    }
+
+.caption{border-style:groove;
+     border-color: #549c71 ;
+    margin-top: 5px;
+   
+height: 230px;}
+.caption h5{font-size: 20px;color:#549c71;
+text-align: center;}
+.caption p{text-align: center;}
+.thumbnail .btn{ width: 150px;
+    font-size: 15px;
+margin-left: 25%;
+margin-bottom: 0px;}
+
