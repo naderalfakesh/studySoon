@@ -2,7 +2,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
+.wrapper {
+    width: 90%;
+    margin: 0px auto;
+}
+
 #programs_title {
     display: flex;
     justify-content: space-around;
@@ -11,6 +18,7 @@
     padding-top: 50px ;
 }
 #programs_title h2 {
+    text-transform: uppercase;
     font-size: 2em;
     font-weight: bold;
 }
@@ -51,7 +59,7 @@
 }
 @media  only screen and (max-width: 500px){
     #programs_title p  {
-        font-size: large;
+        font-size: small;
     }
 }
 
@@ -71,39 +79,39 @@
 }
 
 /* Programs Section */
-.programs a {
+#programs a {
     color: black;
 }
-.programs a:hover {
+#programs a:hover {
     color: green;
     text-decoration-line: none;
 }
-.programs div {
+#programs div {
     border: 0;
     padding: 0px 5px;
 }
-.programs img {
+#programs img {
     border-radius: 4px;
     margin-bottom: 10px
 }
 @media  (max-width: 900px){
-    .programs h5 {
+    #programs h5 {
         font-size: small;
     }
 }
 @media  only screen and (max-width: 500px){
-    .programs h5 {
-        font-size: x-large;
+    #programs h5 {
+        font-size: small;
     }
 }
 @media  (max-width: 900px){
-    .programs p {
+    #programs p {
         font-size: small;
     }
 }
 @media  only screen and (max-width: 500px){
-    .programs p {
-        font-size: larger;
+    #programs p {
+        font-size: small;
     }
 }
 
@@ -111,6 +119,75 @@
     padding-bottom: 80px;
 }
 
+
+/*   Teachers Section   */
+#teachers img {
+    width: 50px;
+    height: 50px;
+}
+#teachers i {
+    display: inline-block;
+}
+
+
+#teachers {
+    background: linear-gradient(
+      to bottom,
+      rgba(117, 104, 94, 0.8) 0,
+      rgba(117, 104, 94, 0.8) 100%
+    ),
+    url("img/banner1image.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px ;
+}
+#teachers h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media  (max-width: 900px){
+    #teachers {
+        padding-top: 30px;
+    }
+}
+@media  (max-width: 500px){
+    #teachers {
+        padding-top: 15px;
+    }
+}
+
+@media  (max-width: 900px){
+    #teachers h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+@media  only screen and (max-width: 500px){
+    .teachers h2 {
+        text-align: center;
+        margin: 0px auto; 
+    }
+}
+
+#teachers p {
+    color: white;
+}
+
+#teachers hr {
+    background-color: green;
+    width: 60px;
+    height: 2px;
+    border-radius: 3px;
+    border-color:green;
+    margin-bottom: 40px;
+}
+
+/*  Footer  */
 footer {
     background-color: black;
     color: white;
