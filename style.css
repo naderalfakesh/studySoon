@@ -28,13 +28,13 @@
 
 @media  (max-width: 900px){
     #programs_title h2 {
-        font-size: 1em;
+        text-align: center;
         margin: 0px auto; 
     }
 }
 @media  only screen and (max-width: 500px){
-    .container h1 {
-        font-size: 0.5em;
+    .container h2 {
+        text-align: center;
         margin: 0px auto; 
     }
 }
@@ -51,7 +51,7 @@
 }
 @media  only screen and (max-width: 500px){
     #programs_title p  {
-        font-size: x-small
+        font-size: large;
     }
 }
 
@@ -70,7 +70,56 @@
     margin: 20px 10px 20px 10px;
 }
 
+/* Programs Section */
+.programs a {
+    color: black;
+}
+.programs a:hover {
+    color: green;
+    text-decoration-line: none;
+}
+.programs div {
+    border: 0;
+    padding: 0px 5px;
+}
+.programs img {
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+@media  (max-width: 900px){
+    .programs h5 {
+        font-size: small;
+    }
+}
+@media  only screen and (max-width: 500px){
+    .programs h5 {
+        font-size: x-large;
+    }
+}
+@media  (max-width: 900px){
+    .programs p {
+        font-size: small;
+    }
+}
+@media  only screen and (max-width: 500px){
+    .programs p {
+        font-size: larger;
+    }
+}
+
+.myCardText{
+    padding-bottom: 80px;
+}
+
 footer {
-    background-color: #002b46;
+    background-color: black;
     color: white;
+}
+footer a {
+    color: green;
+}
+
+footer a:hover {
+    color: gray;
+    text-decoration-line: none;
 }
