@@ -1,3 +1,75 @@
+/*   Programs Section   */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#programs_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px ;
+}
+#programs_title h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media  (max-width: 900px){
+    #programs_title {
+        padding-top: 30px;
+    }
+}
+@media  (max-width: 500px){
+    #programs_title {
+        padding-top: 15px;
+    }
+}
+
+@media  (max-width: 900px){
+    #programs_title h2 {
+        font-size: 1em;
+        margin: 0px auto; 
+    }
+}
+@media  only screen and (max-width: 500px){
+    .container h1 {
+        font-size: 0.5em;
+        margin: 0px auto; 
+    }
+}
+
+#programs_title p {
+    font-style: italic;
+    text-align: center;
+}
+
+@media  (max-width: 900px){
+    #programs_title p {
+       font-size: smaller;
+    }
+}
+@media  only screen and (max-width: 500px){
+    #programs_title p  {
+        font-size: x-small
+    }
+}
+
+#edu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#edu hr {
+    background-color: green;
+    width: 40px;
+    height: 1px;
+    border-radius: 1px;
+    border-color:green;
+    margin: 20px 10px 20px 10px;
+}
+
 footer {
     background-color: #002b46;
     color: white;
